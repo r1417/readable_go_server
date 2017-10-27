@@ -1,0 +1,881 @@
+2017/10/20 16:48:35 info: [Command:params] {"cid":["3"],"id":["3"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/20 16:48:35 error: [Get] no such connection existed [3]
+2017/10/20 16:48:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed [3]"},"id":""}
+2017/10/20 16:48:44 info: [TcpConnect:params] {"_":["1508485597913"]}
+2017/10/20 16:48:44 info: [Response] {"jsonrpc":"2.0","result":{"cid":"1","command":"hello","message":"Ciao  127.0.0.1:53735 -\u003e 127.0.0.1:8080"},"id":"4"}
+2017/10/20 16:48:53 info: [Command:params] {"cid":["1"],"id":["1"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/20 16:48:53 info: [Split] ["hello"]
+2017/10/20 16:48:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"1","command":"hello","message":"Ciao  127.0.0.1:53735 -\u003e 127.0.0.1:8080"},"id":"4"}
+2017/10/20 16:49:12 info: [Command:params] {"cid":["1"],"id":["1"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/20 16:49:12 info: [Split] ["now?"]
+2017/10/20 16:49:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"1","command":"now?","message":"2017-10-20 16:49:12.3111192 +0900 JST m=+17314.708914400"},"id":"4"}
+2017/10/23 10:13:44 info: [TcpConnect:params] {"_":["1508486451398"]}
+2017/10/23 10:13:44 info: [Response] {"jsonrpc":"2.0","result":{"cid":"2","command":"hello","message":"Ciao  127.0.0.1:59388 -\u003e 127.0.0.1:8080"},"id":"5"}
+2017/10/23 10:13:50 info: [Command:params] {"cid":["2"],"id":["2"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/23 10:13:50 info: [Split] ["hello"]
+2017/10/23 10:13:50 info: [Response] {"jsonrpc":"2.0","result":{"cid":"2","command":"hello","message":"Ciao  127.0.0.1:59388 -\u003e 127.0.0.1:8080"},"id":"5"}
+2017/10/23 10:13:54 info: [Command:params] {"cid":["2"],"id":["2"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/23 10:13:54 info: [Split] ["now?"]
+2017/10/23 10:13:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"2","command":"now?","message":"2017-10-23 10:13:54.2072198 +0900 JST m=+252799.004346100"},"id":"5"}
+2017/10/23 11:16:09 info: [TcpConnect:params] {"_":["1508724963513"]}
+2017/10/23 11:16:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"3","command":"hello","message":"Ciao  127.0.0.1:61281 -\u003e 127.0.0.1:8080"},"id":"6"}
+2017/10/23 11:16:11 info: [Command:params] {"cid":["3"],"id":["3"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 11:16:11 info: [Split] ["bye"]
+2017/10/23 11:16:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"3","command":"bye","message":"Ciao"},"id":"6"}
+2017/10/23 15:04:21 info: [Command:params] {"cid":["0"],"id":["0"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:04:21 error: [Get] no such connection existed [0]
+2017/10/23 15:04:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed [0]"},"id":""}
+2017/10/23 15:06:03 info: [Command:params] {"cid":[""],"id":[""],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:03 error: [Get] no such connection existed []
+2017/10/23 15:06:03 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed []"},"id":""}
+2017/10/23 15:06:07 info: [Command:params] {"cid":[""],"id":[""],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:07 error: [Get] no such connection existed []
+2017/10/23 15:06:07 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed []"},"id":""}
+2017/10/23 15:06:08 info: [Command:params] {"cid":[""],"id":[""],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:08 error: [Get] no such connection existed []
+2017/10/23 15:06:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed []"},"id":""}
+2017/10/23 15:06:10 info: [TcpConnect:params] {"_":["1508738648272"]}
+2017/10/23 15:06:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"4","command":"hello","message":"Ciao  127.0.0.1:56493 -\u003e 127.0.0.1:8080"},"id":"7"}
+2017/10/23 15:06:13 info: [Command:params] {"cid":["4"],"id":["4"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:13 info: [Split] ["bye"]
+2017/10/23 15:06:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"4","command":"bye","message":"Ciao"},"id":"7"}
+2017/10/23 15:06:15 info: [TcpConnect:params] {"_":["1508738648273"]}
+2017/10/23 15:06:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"5","command":"hello","message":"Ciao  127.0.0.1:56495 -\u003e 127.0.0.1:8080"},"id":"8"}
+2017/10/23 15:06:19 info: [Command:params] {"cid":["5"],"id":["5"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:19 info: [Split] ["bye"]
+2017/10/23 15:06:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"5","command":"bye","message":"Ciao"},"id":"8"}
+2017/10/23 15:06:22 info: [Command:params] {"cid":["5"],"id":["5"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:22 info: [Split] ["bye"]
+2017/10/23 15:06:22 error: [disconnect] read tcp4 127.0.0.1:56495->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/23 15:06:22 error: [Send] read tcp4 127.0.0.1:56495->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/23 15:06:22 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:56495-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/23 15:06:34 info: [Command:params] {"cid":["0"],"id":["0"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:06:34 error: [Get] no such connection existed [0]
+2017/10/23 15:06:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed [0]"},"id":""}
+2017/10/23 15:09:35 info: [TcpConnect:params] {"_":["1508738971294"]}
+2017/10/23 15:09:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"6","command":"hello","message":"Ciao  127.0.0.1:56567 -\u003e 127.0.0.1:8080"},"id":"9"}
+2017/10/23 15:09:39 info: [Command:params] {"cid":["6"],"id":["6"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 15:09:39 info: [Split] ["bye"]
+2017/10/23 15:09:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"6","command":"bye","message":"Ciao"},"id":"9"}
+2017/10/23 16:07:10 info: [TcpConnect:params] {"_":["1508742424149"]}
+2017/10/23 16:07:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"7","command":"hello","message":"Ciao  127.0.0.1:57614 -\u003e 127.0.0.1:8080"},"id":"a"}
+2017/10/23 16:07:12 info: [Command:params] {"cid":["7"],"id":["7"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 16:07:12 info: [Split] ["bye"]
+2017/10/23 16:07:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"7","command":"bye","message":"Ciao"},"id":"a"}
+2017/10/23 16:28:23 info: [TcpConnect:params] {"_":["1508743693871"]}
+2017/10/23 16:28:23 info: [Response] {"jsonrpc":"2.0","result":{"cid":"8","command":"hello","message":"Ciao  127.0.0.1:58065 -\u003e 127.0.0.1:8080"},"id":"b"}
+2017/10/23 16:31:31 info: [TcpConnect:params] {"_":["1508743889352"]}
+2017/10/23 16:31:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"9","command":"hello","message":"Ciao  127.0.0.1:58131 -\u003e 127.0.0.1:8080"},"id":"c"}
+2017/10/23 16:31:34 info: [Command:params] {"cid":["9"],"id":["9"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 16:31:34 info: [Split] ["bye"]
+2017/10/23 16:31:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"9","command":"bye","message":"Ciao"},"id":"c"}
+2017/10/23 16:31:36 info: [TcpConnect:params] {"_":["1508743889353"]}
+2017/10/23 16:31:36 info: [Response] {"jsonrpc":"2.0","result":{"cid":"10","command":"hello","message":"Ciao  127.0.0.1:58133 -\u003e 127.0.0.1:8080"},"id":"d"}
+2017/10/23 16:31:39 info: [Command:params] {"cid":["10"],"id":["10"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 16:31:39 info: [Split] ["bye"]
+2017/10/23 16:31:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"10","command":"bye","message":"Ciao"},"id":"d"}
+2017/10/23 16:31:41 info: [TcpConnect:params] {"_":["1508743889354"]}
+2017/10/23 16:31:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"11","command":"hello","message":"Ciao  127.0.0.1:58135 -\u003e 127.0.0.1:8080"},"id":"e"}
+2017/10/23 16:39:05 info: [TcpConnect:params] {"_":["1508744332147"]}
+2017/10/23 16:39:05 info: [Response] {"jsonrpc":"2.0","result":{"cid":"12","command":"hello","message":"Ciao  127.0.0.1:58273 -\u003e 127.0.0.1:8080"},"id":"f"}
+2017/10/23 16:39:21 info: [Command:params] {"cid":["12"],"id":["12"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 16:39:21 info: [Split] ["bye"]
+2017/10/23 16:39:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"12","command":"bye","message":"Ciao"},"id":"f"}
+2017/10/23 16:59:45 info: [TcpConnect:params] {"_":["1508745571422"]}
+2017/10/23 16:59:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"13","command":"hello","message":"Ciao  127.0.0.1:58730 -\u003e 127.0.0.1:8080"},"id":"10"}
+2017/10/23 17:01:42 info: [TcpConnect:params] {"_":["1508745687558"]}
+2017/10/23 17:01:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"14","command":"hello","message":"Ciao  127.0.0.1:58829 -\u003e 127.0.0.1:8080"},"id":"11"}
+2017/10/23 17:01:49 info: [Command:params] {"cid":["14"],"id":["14"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:01:49 info: [Split] ["bye"]
+2017/10/23 17:01:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"14","command":"bye","message":"Ciao"},"id":"11"}
+2017/10/23 17:02:54 info: [TcpConnect:params] {"_":["1508745687559"]}
+2017/10/23 17:02:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"15","command":"hello","message":"Ciao  127.0.0.1:58847 -\u003e 127.0.0.1:8080"},"id":"12"}
+2017/10/23 17:02:55 info: [Command:params] {"cid":["15"],"id":["15"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:02:55 info: [Split] ["bye"]
+2017/10/23 17:02:55 info: [Response] {"jsonrpc":"2.0","result":{"cid":"15","command":"bye","message":"Ciao"},"id":"12"}
+2017/10/23 17:04:26 info: [TcpConnect:params] {"_":["1508745862721"]}
+2017/10/23 17:04:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"16","command":"hello","message":"Ciao  127.0.0.1:58895 -\u003e 127.0.0.1:8080"},"id":"13"}
+2017/10/23 17:04:26 info: [Command:params] {"cid":["16"],"id":["16"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:04:26 info: [Split] ["bye"]
+2017/10/23 17:04:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"16","command":"bye","message":"Ciao"},"id":"13"}
+2017/10/23 17:11:38 info: [TcpConnect:params] {"_":["1508746125640"]}
+2017/10/23 17:11:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"17","command":"hello","message":"Ciao  127.0.0.1:59285 -\u003e 127.0.0.1:8080"},"id":"14"}
+2017/10/23 17:11:42 info: [Command:params] {"cid":["17"],"id":["17"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:11:42 info: [Split] ["bye"]
+2017/10/23 17:11:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"17","command":"bye","message":"Ciao"},"id":"14"}
+2017/10/23 17:11:47 info: [TcpConnect:params] {"_":["1508746125641"]}
+2017/10/23 17:11:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"18","command":"hello","message":"Ciao  127.0.0.1:59288 -\u003e 127.0.0.1:8080"},"id":"15"}
+2017/10/23 17:11:48 info: [Command:params] {"cid":["18"],"id":["18"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:11:48 info: [Split] ["bye"]
+2017/10/23 17:11:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"18","command":"bye","message":"Ciao"},"id":"15"}
+2017/10/23 17:12:45 info: [TcpConnect:params] {"_":["1508746362816"]}
+2017/10/23 17:12:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"19","command":"hello","message":"Ciao  127.0.0.1:59313 -\u003e 127.0.0.1:8080"},"id":"16"}
+2017/10/23 17:12:49 info: [Command:params] {"cid":["19"],"id":["19"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:12:49 info: [Split] ["bye"]
+2017/10/23 17:12:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"19","command":"bye","message":"Ciao"},"id":"16"}
+2017/10/23 17:12:51 info: [TcpConnect:params] {"_":["1508746362817"]}
+2017/10/23 17:12:51 info: [Response] {"jsonrpc":"2.0","result":{"cid":"20","command":"hello","message":"Ciao  127.0.0.1:59315 -\u003e 127.0.0.1:8080"},"id":"17"}
+2017/10/23 17:12:53 info: [Command:params] {"cid":["20"],"id":["20"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:12:53 info: [Split] ["bye"]
+2017/10/23 17:12:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"20","command":"bye","message":"Ciao"},"id":"17"}
+2017/10/23 17:12:54 info: [TcpConnect:params] {"_":["1508746362818"]}
+2017/10/23 17:12:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"21","command":"hello","message":"Ciao  127.0.0.1:59316 -\u003e 127.0.0.1:8080"},"id":"18"}
+2017/10/23 17:12:56 info: [Command:params] {"cid":["21"],"id":["21"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:12:56 info: [Split] ["bye"]
+2017/10/23 17:12:56 info: [Response] {"jsonrpc":"2.0","result":{"cid":"21","command":"bye","message":"Ciao"},"id":"18"}
+2017/10/23 17:12:58 info: [TcpConnect:params] {"_":["1508746362819"]}
+2017/10/23 17:12:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"22","command":"hello","message":"Ciao  127.0.0.1:59319 -\u003e 127.0.0.1:8080"},"id":"19"}
+2017/10/23 17:12:59 info: [Command:params] {"cid":["22"],"id":["22"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:12:59 info: [Split] ["bye"]
+2017/10/23 17:12:59 info: [Response] {"jsonrpc":"2.0","result":{"cid":"22","command":"bye","message":"Ciao"},"id":"19"}
+2017/10/23 17:13:47 info: [TcpConnect:params] {"_":["1508746419975"]}
+2017/10/23 17:13:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"23","command":"hello","message":"Ciao  127.0.0.1:59334 -\u003e 127.0.0.1:8080"},"id":"1a"}
+2017/10/23 17:13:51 info: [Command:params] {"cid":["23"],"id":["23"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:13:51 info: [Split] ["bye"]
+2017/10/23 17:13:51 info: [Response] {"jsonrpc":"2.0","result":{"cid":"23","command":"bye","message":"Ciao"},"id":"1a"}
+2017/10/23 17:13:52 info: [TcpConnect:params] {"_":["1508746419976"]}
+2017/10/23 17:13:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"24","command":"hello","message":"Ciao  127.0.0.1:59336 -\u003e 127.0.0.1:8080"},"id":"1b"}
+2017/10/23 17:14:00 info: [Command:params] {"cid":["24"],"id":["24"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:14:00 info: [Split] ["bye"]
+2017/10/23 17:14:01 info: [Response] {"jsonrpc":"2.0","result":{"cid":"24","command":"bye","message":"Ciao"},"id":"1b"}
+2017/10/23 17:18:06 info: [TcpConnect:params] {"_":["1508746676287"]}
+2017/10/23 17:18:06 info: [Response] {"jsonrpc":"2.0","result":{"cid":"25","command":"hello","message":"Ciao  127.0.0.1:59433 -\u003e 127.0.0.1:8080"},"id":"1c"}
+2017/10/23 17:18:08 info: [Command:params] {"cid":["25"],"id":["25"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:18:08 info: [Split] ["bye"]
+2017/10/23 17:18:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"25","command":"bye","message":"Ciao"},"id":"1c"}
+2017/10/23 17:20:27 info: [TcpConnect:params] {"_":["1508746784020"]}
+2017/10/23 17:20:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"26","command":"hello","message":"Ciao  127.0.0.1:59472 -\u003e 127.0.0.1:8080"},"id":"1d"}
+2017/10/23 17:20:29 info: [Command:params] {"cid":["26"],"id":["26"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:20:29 info: [Split] ["bye"]
+2017/10/23 17:20:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"26","command":"bye","message":"Ciao"},"id":"1d"}
+2017/10/23 17:47:30 info: [TcpConnect:params] {"_":["1508748431655"]}
+2017/10/23 17:47:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"27","command":"hello","message":"Ciao  127.0.0.1:60004 -\u003e 127.0.0.1:8080"},"id":"1e"}
+2017/10/23 17:47:31 info: [Command:params] {"cid":["27"],"id":["27"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:47:31 info: [Split] ["bye"]
+2017/10/23 17:47:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"27","command":"bye","message":"Ciao"},"id":"1e"}
+2017/10/23 17:47:40 info: [Command:params] {"cid":["27"],"id":["27"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/23 17:47:40 info: [Split] ["hello"]
+2017/10/23 17:47:40 error: [disconnect] read tcp4 127.0.0.1:60004->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/23 17:47:40 error: [Send] read tcp4 127.0.0.1:60004->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/23 17:47:40 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:60004-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/23 17:47:47 info: [TcpConnect:params] {"_":["1508748431656"]}
+2017/10/23 17:47:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"28","command":"hello","message":"Ciao  127.0.0.1:60008 -\u003e 127.0.0.1:8080"},"id":"1f"}
+2017/10/23 17:47:51 info: [Command:params] {"cid":["28"],"id":["28"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/23 17:47:51 info: [Split] ["now?"]
+2017/10/23 17:47:51 info: [Response] {"jsonrpc":"2.0","result":{"cid":"28","command":"now?","message":"2017-10-23 17:47:51.4149569 +0900 JST m=+280037.101886000"},"id":"1f"}
+2017/10/23 17:48:52 info: [Command:params] {"cid":["28"],"id":["28"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:48:52 info: [Split] ["bye"]
+2017/10/23 17:48:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"28","command":"bye","message":"Ciao"},"id":"1f"}
+2017/10/23 17:48:52 info: [TcpConnect:params] {"_":["1508748431657"]}
+2017/10/23 17:48:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"29","command":"hello","message":"Ciao  127.0.0.1:60028 -\u003e 127.0.0.1:8080"},"id":"20"}
+2017/10/23 17:48:53 info: [Command:params] {"cid":["29"],"id":["29"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:48:53 info: [Split] ["bye"]
+2017/10/23 17:48:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"29","command":"bye","message":"Ciao"},"id":"20"}
+2017/10/23 17:48:54 info: [TcpConnect:params] {"_":["1508748431658"]}
+2017/10/23 17:48:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"30","command":"hello","message":"Ciao  127.0.0.1:60029 -\u003e 127.0.0.1:8080"},"id":"21"}
+2017/10/23 17:49:02 info: [Command:params] {"cid":["30"],"id":["30"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/23 17:49:02 info: [Split] ["bye"]
+2017/10/23 17:49:02 info: [Response] {"jsonrpc":"2.0","result":{"cid":"30","command":"bye","message":"Ciao"},"id":"21"}
+2017/10/23 17:49:04 info: [TcpConnect:params] {"_":["1508748431659"]}
+2017/10/23 17:49:04 info: [Response] {"jsonrpc":"2.0","result":{"cid":"31","command":"hello","message":"Ciao  127.0.0.1:60032 -\u003e 127.0.0.1:8080"},"id":"22"}
+2017/10/23 18:09:26 info: [TcpConnect:params] {"_":["1508749675655"]}
+2017/10/23 18:09:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"32","command":"hello","message":"Ciao  127.0.0.1:60578 -\u003e 127.0.0.1:8080"},"id":"23"}
+2017/10/25 13:40:37 info: [TcpConnect:params] {"_":["1508751761142"]}
+2017/10/25 13:40:37 info: [Response] {"jsonrpc":"2.0","result":{"cid":"33","command":"hello","message":"Ciao  127.0.0.1:64964 -\u003e 127.0.0.1:8080"},"id":"24"}
+2017/10/25 13:40:49 info: [Command:params] {"cid":["33"],"id":["33"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 13:40:49 info: [Split] ["hello"]
+2017/10/25 13:40:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"33","command":"hello","message":"Ciao  127.0.0.1:64964 -\u003e 127.0.0.1:8080"},"id":"24"}
+2017/10/25 13:50:47 info: [TcpConnect:params] {"_":["1508907041352"]}
+2017/10/25 13:50:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"hello","message":"Ciao  127.0.0.1:65086 -\u003e 127.0.0.1:8080"},"id":"25"}
+2017/10/25 13:50:58 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 13:50:58 info: [Split] ["hello"]
+2017/10/25 13:50:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"hello","message":"Ciao  127.0.0.1:65086 -\u003e 127.0.0.1:8080"},"id":"25"}
+2017/10/25 13:51:09 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/25 13:51:09 info: [Split] ["now?"]
+2017/10/25 13:51:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"now?","message":"2017-10-25 13:51:09.441013 +0900 JST m=+438640.165007300"},"id":"25"}
+2017/10/25 13:51:17 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/25 13:51:17 info: [Split] ["test2"]
+2017/10/25 13:51:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"test2","message":"test2です"},"id":"25"}
+2017/10/25 13:51:24 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 13:51:24 info: [Split] ["hello"]
+2017/10/25 13:51:24 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"hello","message":"Ciao  127.0.0.1:65086 -\u003e 127.0.0.1:8080"},"id":"25"}
+2017/10/25 13:51:46 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["a"],"params":[""]}
+2017/10/25 13:51:46 info: [Split] ["a"]
+2017/10/25 13:51:46 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"a","message":"command not found"},"id":"25"}
+2017/10/25 13:51:47 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["a"],"params":[""]}
+2017/10/25 13:51:47 info: [Split] ["a"]
+2017/10/25 13:51:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"a","message":"command not found"},"id":"25"}
+2017/10/25 13:51:47 info: [Command:params] {"cid":["34"],"id":["34"],"jsonrpc":["2.0"],"method":["a"],"params":[""]}
+2017/10/25 13:51:47 info: [Split] ["a"]
+2017/10/25 13:51:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"34","command":"a","message":"command not found"},"id":"25"}
+2017/10/25 13:59:19 info: [TcpConnect:params] {"_":["1508907469009"]}
+2017/10/25 13:59:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"hello","message":"Ciao  127.0.0.1:65434 -\u003e 127.0.0.1:8080"},"id":"26"}
+2017/10/25 13:59:31 info: [Command:params] {"cid":["35"],"id":["35"],"jsonrpc":["2.0"],"method":["あああ"],"params":[""]}
+2017/10/25 13:59:31 info: [Split] ["あああ"]
+2017/10/25 13:59:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"あああ","message":"command not found"},"id":"26"}
+2017/10/25 13:59:32 info: [Command:params] {"cid":["35"],"id":["35"],"jsonrpc":["2.0"],"method":["あ"],"params":[""]}
+2017/10/25 13:59:32 info: [Split] ["あ"]
+2017/10/25 13:59:32 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"あ","message":"command not found"},"id":"26"}
+2017/10/25 13:59:33 info: [Command:params] {"cid":["35"],"id":["35"],"jsonrpc":["2.0"],"method":["あ"],"params":[""]}
+2017/10/25 13:59:33 info: [Split] ["あ"]
+2017/10/25 13:59:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"あ","message":"command not found"},"id":"26"}
+2017/10/25 13:59:33 info: [Command:params] {"cid":["35"],"id":["35"],"jsonrpc":["2.0"],"method":["ああ"],"params":[""]}
+2017/10/25 13:59:33 info: [Split] ["ああ"]
+2017/10/25 13:59:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"ああ","message":"command not found"},"id":"26"}
+2017/10/25 13:59:33 info: [Command:params] {"cid":["35"],"id":["35"],"jsonrpc":["2.0"],"method":["あ"],"params":[""]}
+2017/10/25 13:59:33 info: [Split] ["あ"]
+2017/10/25 13:59:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"35","command":"あ","message":"command not found"},"id":"26"}
+2017/10/25 14:00:11 info: [TcpConnect:params] {"_":["1508907609128"]}
+2017/10/25 14:00:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"36","command":"hello","message":"Ciao  127.0.0.1:65448 -\u003e 127.0.0.1:8080"},"id":"27"}
+2017/10/25 14:00:15 info: [Command:params] {"cid":["36"],"id":["36"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:15 info: [Split] ["bye"]
+2017/10/25 14:00:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"36","command":"bye","message":"Ciao"},"id":"27"}
+2017/10/25 14:00:16 info: [TcpConnect:params] {"_":["1508907609129"]}
+2017/10/25 14:00:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"37","command":"hello","message":"Ciao  127.0.0.1:65449 -\u003e 127.0.0.1:8080"},"id":"28"}
+2017/10/25 14:00:18 info: [Command:params] {"cid":["37"],"id":["37"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:18 info: [Split] ["bye"]
+2017/10/25 14:00:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"37","command":"bye","message":"Ciao"},"id":"28"}
+2017/10/25 14:00:19 info: [TcpConnect:params] {"_":["1508907609130"]}
+2017/10/25 14:00:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"38","command":"hello","message":"Ciao  127.0.0.1:65451 -\u003e 127.0.0.1:8080"},"id":"29"}
+2017/10/25 14:00:21 info: [Command:params] {"cid":["38"],"id":["38"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:21 info: [Split] ["bye"]
+2017/10/25 14:00:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"38","command":"bye","message":"Ciao"},"id":"29"}
+2017/10/25 14:00:41 info: [TcpConnect:params] {"_":["1508907638600"]}
+2017/10/25 14:00:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"39","command":"hello","message":"Ciao  127.0.0.1:65456 -\u003e 127.0.0.1:8080"},"id":"2a"}
+2017/10/25 14:00:46 info: [Command:params] {"cid":["39"],"id":["39"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:46 info: [Split] ["bye"]
+2017/10/25 14:00:46 info: [Response] {"jsonrpc":"2.0","result":{"cid":"39","command":"bye","message":"Ciao"},"id":"2a"}
+2017/10/25 14:00:46 info: [TcpConnect:params] {"_":["1508907638601"]}
+2017/10/25 14:00:46 info: [Response] {"jsonrpc":"2.0","result":{"cid":"40","command":"hello","message":"Ciao  127.0.0.1:65458 -\u003e 127.0.0.1:8080"},"id":"2b"}
+2017/10/25 14:00:47 info: [Command:params] {"cid":["40"],"id":["40"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:47 info: [Split] ["bye"]
+2017/10/25 14:00:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"40","command":"bye","message":"Ciao"},"id":"2b"}
+2017/10/25 14:00:48 info: [TcpConnect:params] {"_":["1508907638602"]}
+2017/10/25 14:00:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"41","command":"hello","message":"Ciao  127.0.0.1:65459 -\u003e 127.0.0.1:8080"},"id":"2c"}
+2017/10/25 14:00:50 info: [Command:params] {"cid":["41"],"id":["41"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:00:50 info: [Split] ["bye"]
+2017/10/25 14:00:50 info: [Response] {"jsonrpc":"2.0","result":{"cid":"41","command":"bye","message":"Ciao"},"id":"2c"}
+2017/10/25 14:04:13 info: [Command:params] {"cid":["41"],"id":["41"],"jsonrpc":["2.0"],"method":["ああ"],"params":[""]}
+2017/10/25 14:04:13 info: [Split] ["ああ"]
+2017/10/25 14:04:13 error: [disconnect] read tcp4 127.0.0.1:65459->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:04:13 error: [Send] read tcp4 127.0.0.1:65459->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:04:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:65459-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 14:04:18 info: [TcpConnect:params] {"_":["1508907638603"]}
+2017/10/25 14:04:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"42","command":"hello","message":"Ciao  127.0.0.1:49184 -\u003e 127.0.0.1:8080"},"id":"2d"}
+2017/10/25 14:04:28 info: [Command:params] {"cid":["42"],"id":["42"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:04:28 info: [Split] ["bye"]
+2017/10/25 14:04:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"42","command":"bye","message":"Ciao"},"id":"2d"}
+2017/10/25 14:04:31 info: [Command:params] {"cid":["42"],"id":["42"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:04:31 info: [Split] ["hello"]
+2017/10/25 14:04:31 error: [disconnect] read tcp4 127.0.0.1:49184->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:04:31 error: [Send] read tcp4 127.0.0.1:49184->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:04:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:49184-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 14:04:53 info: [TcpConnect:params] {"_":["1508907638604"]}
+2017/10/25 14:04:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"43","command":"hello","message":"Ciao  127.0.0.1:49189 -\u003e 127.0.0.1:8080"},"id":"2e"}
+2017/10/25 14:08:09 info: [TcpConnect:params] {"_":["1508908087332"]}
+2017/10/25 14:08:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"44","command":"hello","message":"Ciao  127.0.0.1:49232 -\u003e 127.0.0.1:8080"},"id":"2f"}
+2017/10/25 14:08:10 info: [Command:params] {"cid":["44"],"id":["44"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:10 info: [Split] ["bye"]
+2017/10/25 14:08:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"44","command":"bye","message":"Ciao"},"id":"2f"}
+2017/10/25 14:08:11 info: [TcpConnect:params] {"_":["1508908087333"]}
+2017/10/25 14:08:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"45","command":"hello","message":"Ciao  127.0.0.1:49234 -\u003e 127.0.0.1:8080"},"id":"30"}
+2017/10/25 14:08:12 info: [Command:params] {"cid":["45"],"id":["45"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:12 info: [Split] ["bye"]
+2017/10/25 14:08:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"45","command":"bye","message":"Ciao"},"id":"30"}
+2017/10/25 14:08:12 info: [TcpConnect:params] {"_":["1508908087334"]}
+2017/10/25 14:08:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"46","command":"hello","message":"Ciao  127.0.0.1:49235 -\u003e 127.0.0.1:8080"},"id":"31"}
+2017/10/25 14:08:13 info: [Command:params] {"cid":["46"],"id":["46"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:13 info: [Split] ["bye"]
+2017/10/25 14:08:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"46","command":"bye","message":"Ciao"},"id":"31"}
+2017/10/25 14:08:14 info: [TcpConnect:params] {"_":["1508908087335"]}
+2017/10/25 14:08:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"47","command":"hello","message":"Ciao  127.0.0.1:49236 -\u003e 127.0.0.1:8080"},"id":"32"}
+2017/10/25 14:08:15 info: [Command:params] {"cid":["47"],"id":["47"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:15 info: [Split] ["bye"]
+2017/10/25 14:08:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"47","command":"bye","message":"Ciao"},"id":"32"}
+2017/10/25 14:08:16 info: [TcpConnect:params] {"_":["1508908087336"]}
+2017/10/25 14:08:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"48","command":"hello","message":"Ciao  127.0.0.1:49238 -\u003e 127.0.0.1:8080"},"id":"33"}
+2017/10/25 14:08:17 info: [Command:params] {"cid":["48"],"id":["48"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:17 info: [Split] ["bye"]
+2017/10/25 14:08:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"48","command":"bye","message":"Ciao"},"id":"33"}
+2017/10/25 14:08:18 info: [TcpConnect:params] {"_":["1508908087337"]}
+2017/10/25 14:08:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"49","command":"hello","message":"Ciao  127.0.0.1:49240 -\u003e 127.0.0.1:8080"},"id":"34"}
+2017/10/25 14:08:21 info: [Command:params] {"cid":["49"],"id":["49"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:08:21 info: [Split] ["bye"]
+2017/10/25 14:08:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"49","command":"bye","message":"Ciao"},"id":"34"}
+2017/10/25 14:08:24 info: [TcpConnect:params] {"_":["1508908087338"]}
+2017/10/25 14:08:24 info: [Response] {"jsonrpc":"2.0","result":{"cid":"50","command":"hello","message":"Ciao  127.0.0.1:49241 -\u003e 127.0.0.1:8080"},"id":"35"}
+2017/10/25 14:09:22 info: [TcpConnect:params] {"_":["1508908160114"]}
+2017/10/25 14:09:22 info: [Response] {"jsonrpc":"2.0","result":{"cid":"51","command":"hello","message":"Ciao  127.0.0.1:49254 -\u003e 127.0.0.1:8080"},"id":"36"}
+2017/10/25 14:09:22 info: [TcpConnect:params] {"_":["1508908160115"]}
+2017/10/25 14:09:22 info: [Response] {"jsonrpc":"2.0","result":{"cid":"52","command":"hello","message":"Ciao  127.0.0.1:49255 -\u003e 127.0.0.1:8080"},"id":"37"}
+2017/10/25 14:09:24 info: [Command:params] {"cid":["52"],"id":["52"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:24 info: [Split] ["bye"]
+2017/10/25 14:09:24 info: [Response] {"jsonrpc":"2.0","result":{"cid":"52","command":"bye","message":"Ciao"},"id":"37"}
+2017/10/25 14:09:25 info: [TcpConnect:params] {"_":["1508908160116"]}
+2017/10/25 14:09:25 info: [Response] {"jsonrpc":"2.0","result":{"cid":"53","command":"hello","message":"Ciao  127.0.0.1:49256 -\u003e 127.0.0.1:8080"},"id":"38"}
+2017/10/25 14:09:26 info: [Command:params] {"cid":["53"],"id":["53"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:26 info: [Split] ["bye"]
+2017/10/25 14:09:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"53","command":"bye","message":"Ciao"},"id":"38"}
+2017/10/25 14:09:26 info: [TcpConnect:params] {"_":["1508908160117"]}
+2017/10/25 14:09:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"54","command":"hello","message":"Ciao  127.0.0.1:49257 -\u003e 127.0.0.1:8080"},"id":"39"}
+2017/10/25 14:09:27 info: [Command:params] {"cid":["54"],"id":["54"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:27 info: [Split] ["bye"]
+2017/10/25 14:09:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"54","command":"bye","message":"Ciao"},"id":"39"}
+2017/10/25 14:09:28 info: [TcpConnect:params] {"_":["1508908160118"]}
+2017/10/25 14:09:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"55","command":"hello","message":"Ciao  127.0.0.1:49258 -\u003e 127.0.0.1:8080"},"id":"3a"}
+2017/10/25 14:09:28 info: [Command:params] {"cid":["55"],"id":["55"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:28 info: [Split] ["bye"]
+2017/10/25 14:09:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"55","command":"bye","message":"Ciao"},"id":"3a"}
+2017/10/25 14:09:29 info: [TcpConnect:params] {"_":["1508908160119"]}
+2017/10/25 14:09:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"56","command":"hello","message":"Ciao  127.0.0.1:49259 -\u003e 127.0.0.1:8080"},"id":"3b"}
+2017/10/25 14:09:30 info: [Command:params] {"cid":["56"],"id":["56"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:30 info: [Split] ["bye"]
+2017/10/25 14:09:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"56","command":"bye","message":"Ciao"},"id":"3b"}
+2017/10/25 14:09:38 info: [TcpConnect:params] {"_":["1508908160120"]}
+2017/10/25 14:09:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"57","command":"hello","message":"Ciao  127.0.0.1:49260 -\u003e 127.0.0.1:8080"},"id":"3c"}
+2017/10/25 14:09:48 info: [Command:params] {"cid":["57"],"id":["57"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:09:48 info: [Split] ["hello"]
+2017/10/25 14:09:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"57","command":"hello","message":"Ciao  127.0.0.1:49260 -\u003e 127.0.0.1:8080"},"id":"3c"}
+2017/10/25 14:09:58 info: [Command:params] {"cid":["57"],"id":["57"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:09:58 info: [Split] ["bye"]
+2017/10/25 14:09:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"57","command":"bye","message":"Ciao"},"id":"3c"}
+2017/10/25 14:12:52 info: [TcpConnect:params] {"_":["1508908368392"]}
+2017/10/25 14:12:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"58","command":"hello","message":"Ciao  127.0.0.1:49372 -\u003e 127.0.0.1:8080"},"id":"3d"}
+2017/10/25 14:13:11 info: [TcpConnect:params] {"_":["1508908385769"]}
+2017/10/25 14:13:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"59","command":"hello","message":"Ciao  127.0.0.1:49378 -\u003e 127.0.0.1:8080"},"id":"3e"}
+2017/10/25 14:13:19 info: [Command:params] {"cid":["59"],"id":["59"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:13:19 info: [Split] ["hello"]
+2017/10/25 14:13:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"59","command":"hello","message":"Ciao  127.0.0.1:49378 -\u003e 127.0.0.1:8080"},"id":"3e"}
+2017/10/25 14:36:57 info: [TcpConnect:params] {"_":["1508909813248"]}
+2017/10/25 14:36:57 info: [Response] {"jsonrpc":"2.0","result":{"cid":"60","command":"hello","message":"Ciao  127.0.0.1:49987 -\u003e 127.0.0.1:8080"},"id":"3f"}
+2017/10/25 14:37:03 info: [Command:params] {"cid":["60"],"id":["60"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:37:03 info: [Split] ["hello"]
+2017/10/25 14:37:03 info: [Response] {"jsonrpc":"2.0","result":{"cid":"60","command":"hello","message":"Ciao  127.0.0.1:49987 -\u003e 127.0.0.1:8080"},"id":"3f"}
+2017/10/25 14:37:11 info: [Command:params] {"cid":["60"],"id":["60"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:37:11 info: [Split] ["bye"]
+2017/10/25 14:37:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"60","command":"bye","message":"Ciao"},"id":"3f"}
+2017/10/25 14:37:15 info: [TcpConnect:params] {"_":["1508909813249"]}
+2017/10/25 14:37:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"61","command":"hello","message":"Ciao  127.0.0.1:50000 -\u003e 127.0.0.1:8080"},"id":"40"}
+2017/10/25 14:38:41 info: [TcpConnect:params] {"_":["1508909912553"]}
+2017/10/25 14:38:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"62","command":"hello","message":"Ciao  127.0.0.1:50042 -\u003e 127.0.0.1:8080"},"id":"41"}
+2017/10/25 14:39:09 info: [Command:params] {"cid":["62"],"id":["62"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/25 14:39:09 info: [Split] ["now?"]
+2017/10/25 14:39:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"62","command":"now?","message":"2017-10-25 14:39:09.6081317 +0900 JST m=+441520.421783100"},"id":"41"}
+2017/10/25 14:40:00 info: [Command:params] {"cid":["62"],"id":["62"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:40:00 info: [Split] ["bye"]
+2017/10/25 14:40:00 info: [Response] {"jsonrpc":"2.0","result":{"cid":"62","command":"bye","message":"Ciao"},"id":"41"}
+2017/10/25 14:40:12 info: [Command:params] {"cid":["62"],"id":["62"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:40:12 info: [Split] ["hello"]
+2017/10/25 14:40:12 error: [disconnect] read tcp4 127.0.0.1:50042->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:40:12 error: [Send] read tcp4 127.0.0.1:50042->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 14:40:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:50042-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 14:40:17 info: [TcpConnect:params] {"_":["1508909912554"]}
+2017/10/25 14:40:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"hello","message":"Ciao  127.0.0.1:50056 -\u003e 127.0.0.1:8080"},"id":"42"}
+2017/10/25 14:40:21 info: [Command:params] {"cid":["63"],"id":["63"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:40:21 info: [Split] ["hello"]
+2017/10/25 14:40:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"hello","message":"Ciao  127.0.0.1:50056 -\u003e 127.0.0.1:8080"},"id":"42"}
+2017/10/25 14:40:23 info: [Command:params] {"cid":["63"],"id":["63"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:40:23 info: [Split] ["hello"]
+2017/10/25 14:40:23 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"hello","message":"Ciao  127.0.0.1:50056 -\u003e 127.0.0.1:8080"},"id":"42"}
+2017/10/25 14:40:25 info: [Command:params] {"cid":["63"],"id":["63"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:40:25 info: [Split] ["hello"]
+2017/10/25 14:40:25 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"hello","message":"Ciao  127.0.0.1:50056 -\u003e 127.0.0.1:8080"},"id":"42"}
+2017/10/25 14:40:27 info: [Command:params] {"cid":["63"],"id":["63"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 14:40:27 info: [Split] ["hello"]
+2017/10/25 14:40:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"hello","message":"Ciao  127.0.0.1:50056 -\u003e 127.0.0.1:8080"},"id":"42"}
+2017/10/25 14:42:10 info: [Command:params] {"cid":["63"],"id":["63"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:42:10 info: [Split] ["bye"]
+2017/10/25 14:42:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"63","command":"bye","message":"Ciao"},"id":"42"}
+2017/10/25 14:48:10 info: [TcpConnect:params] {"_":["1508910487662"]}
+2017/10/25 14:48:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"64","command":"hello","message":"Ciao  127.0.0.1:50163 -\u003e 127.0.0.1:8080"},"id":"43"}
+2017/10/25 14:48:12 info: [Command:params] {"cid":["64"],"id":["64"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:48:12 info: [Split] ["bye"]
+2017/10/25 14:48:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"64","command":"bye","message":"Ciao"},"id":"43"}
+2017/10/25 14:48:13 info: [TcpConnect:params] {"_":["1508910487663"]}
+2017/10/25 14:48:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"65","command":"hello","message":"Ciao  127.0.0.1:50164 -\u003e 127.0.0.1:8080"},"id":"44"}
+2017/10/25 14:48:14 info: [Command:params] {"cid":["65"],"id":["65"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:48:14 info: [Split] ["bye"]
+2017/10/25 14:48:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"65","command":"bye","message":"Ciao"},"id":"44"}
+2017/10/25 14:48:16 info: [TcpConnect:params] {"_":["1508910487664"]}
+2017/10/25 14:48:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"66","command":"hello","message":"Ciao  127.0.0.1:50165 -\u003e 127.0.0.1:8080"},"id":"45"}
+2017/10/25 14:48:34 info: [Command:params] {"cid":["66"],"id":["66"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:48:34 info: [Split] ["bye"]
+2017/10/25 14:48:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"66","command":"bye","message":"Ciao"},"id":"45"}
+2017/10/25 14:48:35 info: [TcpConnect:params] {"_":["1508910487665"]}
+2017/10/25 14:48:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"67","command":"hello","message":"Ciao  127.0.0.1:50167 -\u003e 127.0.0.1:8080"},"id":"46"}
+2017/10/25 14:48:36 info: [Command:params] {"cid":["67"],"id":["67"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:48:36 info: [Split] ["bye"]
+2017/10/25 14:48:36 info: [Response] {"jsonrpc":"2.0","result":{"cid":"67","command":"bye","message":"Ciao"},"id":"46"}
+2017/10/25 14:48:39 info: [TcpConnect:params] {"_":["1508910487666"]}
+2017/10/25 14:48:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"68","command":"hello","message":"Ciao  127.0.0.1:50168 -\u003e 127.0.0.1:8080"},"id":"47"}
+2017/10/25 14:57:38 info: [TcpConnect:params] {"_":["1508910916282"]}
+2017/10/25 14:57:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"69","command":"hello","message":"Ciao  127.0.0.1:50358 -\u003e 127.0.0.1:8080"},"id":"48"}
+2017/10/25 14:57:40 info: [Command:params] {"cid":["69"],"id":["69"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:57:40 info: [Split] ["bye"]
+2017/10/25 14:57:40 info: [Response] {"jsonrpc":"2.0","result":{"cid":"69","command":"bye","message":"Ciao"},"id":"48"}
+2017/10/25 14:58:42 info: [TcpConnect:params] {"_":["1508910916007"]}
+2017/10/25 14:58:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"70","command":"hello","message":"Ciao  127.0.0.1:50373 -\u003e 127.0.0.1:8080"},"id":"49"}
+2017/10/25 14:58:47 info: [Command:params] {"cid":["70"],"id":["70"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:58:47 info: [Split] ["bye"]
+2017/10/25 14:58:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"70","command":"bye","message":"Ciao"},"id":"49"}
+2017/10/25 14:58:49 info: [TcpConnect:params] {"_":["1508910916008"]}
+2017/10/25 14:58:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"71","command":"hello","message":"Ciao  127.0.0.1:50374 -\u003e 127.0.0.1:8080"},"id":"4a"}
+2017/10/25 14:58:50 info: [Command:params] {"cid":["71"],"id":["71"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:58:50 info: [Split] ["bye"]
+2017/10/25 14:58:50 info: [Response] {"jsonrpc":"2.0","result":{"cid":"71","command":"bye","message":"Ciao"},"id":"4a"}
+2017/10/25 14:59:09 info: [TcpConnect:params] {"_":["1508910916009"]}
+2017/10/25 14:59:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"72","command":"hello","message":"Ciao  127.0.0.1:50386 -\u003e 127.0.0.1:8080"},"id":"4b"}
+2017/10/25 14:59:16 info: [Command:params] {"cid":["72"],"id":["72"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:59:16 info: [Split] ["bye"]
+2017/10/25 14:59:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"72","command":"bye","message":"Ciao"},"id":"4b"}
+2017/10/25 14:59:18 info: [TcpConnect:params] {"_":["1508910916010"]}
+2017/10/25 14:59:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"73","command":"hello","message":"Ciao  127.0.0.1:50397 -\u003e 127.0.0.1:8080"},"id":"4c"}
+2017/10/25 14:59:21 info: [Command:params] {"cid":["73"],"id":["73"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 14:59:21 info: [Split] ["bye"]
+2017/10/25 14:59:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"73","command":"bye","message":"Ciao"},"id":"4c"}
+2017/10/25 15:01:05 info: [TcpConnect:params] {"_":["1508911253138"]}
+2017/10/25 15:01:05 info: [Response] {"jsonrpc":"2.0","result":{"cid":"74","command":"hello","message":"Ciao  127.0.0.1:50418 -\u003e 127.0.0.1:8080"},"id":"4d"}
+2017/10/25 15:01:07 info: [Command:params] {"cid":["74"],"id":["74"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:01:07 info: [Split] ["bye"]
+2017/10/25 15:01:07 info: [Response] {"jsonrpc":"2.0","result":{"cid":"74","command":"bye","message":"Ciao"},"id":"4d"}
+2017/10/25 15:06:27 info: [TcpConnect:params] {"_":["1508911551339"]}
+2017/10/25 15:06:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"75","command":"hello","message":"Ciao  127.0.0.1:50475 -\u003e 127.0.0.1:8080"},"id":"4e"}
+2017/10/25 15:06:29 info: [Command:params] {"cid":["75"],"id":["75"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:06:29 info: [Split] ["bye"]
+2017/10/25 15:06:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"75","command":"bye","message":"Ciao"},"id":"4e"}
+2017/10/25 15:06:30 info: [TcpConnect:params] {"_":["1508911551340"]}
+2017/10/25 15:06:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"76","command":"hello","message":"Ciao  127.0.0.1:50476 -\u003e 127.0.0.1:8080"},"id":"4f"}
+2017/10/25 15:06:33 info: [Command:params] {"cid":["76"],"id":["76"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:06:33 info: [Split] ["bye"]
+2017/10/25 15:06:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"76","command":"bye","message":"Ciao"},"id":"4f"}
+2017/10/25 15:06:35 info: [TcpConnect:params] {"_":["1508911551341"]}
+2017/10/25 15:06:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"77","command":"hello","message":"Ciao  127.0.0.1:50477 -\u003e 127.0.0.1:8080"},"id":"50"}
+2017/10/25 15:06:38 info: [Command:params] {"cid":["77"],"id":["77"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:06:38 info: [Split] ["bye"]
+2017/10/25 15:06:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"77","command":"bye","message":"Ciao"},"id":"50"}
+2017/10/25 15:06:40 info: [TcpConnect:params] {"_":["1508911551342"]}
+2017/10/25 15:06:40 info: [Response] {"jsonrpc":"2.0","result":{"cid":"78","command":"hello","message":"Ciao  127.0.0.1:50478 -\u003e 127.0.0.1:8080"},"id":"51"}
+2017/10/25 15:06:42 info: [Command:params] {"cid":["78"],"id":["78"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:06:42 info: [Split] ["bye"]
+2017/10/25 15:06:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"78","command":"bye","message":"Ciao"},"id":"51"}
+2017/10/25 15:06:43 info: [TcpConnect:params] {"_":["1508911551343"]}
+2017/10/25 15:06:43 info: [Response] {"jsonrpc":"2.0","result":{"cid":"79","command":"hello","message":"Ciao  127.0.0.1:50488 -\u003e 127.0.0.1:8080"},"id":"52"}
+2017/10/25 15:17:30 info: [TcpConnect:params] {"_":["1508912239156"]}
+2017/10/25 15:17:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"80","command":"hello","message":"Ciao  127.0.0.1:50622 -\u003e 127.0.0.1:8080"},"id":"53"}
+2017/10/25 15:17:39 info: [Command:params] {"cid":["80"],"id":["80"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:17:39 info: [Split] ["bye"]
+2017/10/25 15:17:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"80","command":"bye","message":"Ciao"},"id":"53"}
+2017/10/25 15:17:41 info: [TcpConnect:params] {"_":["1508912239157"]}
+2017/10/25 15:17:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"81","command":"hello","message":"Ciao  127.0.0.1:50623 -\u003e 127.0.0.1:8080"},"id":"54"}
+2017/10/25 15:20:08 info: [TcpConnect:params] {"_":["1508912404828"]}
+2017/10/25 15:20:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"82","command":"hello","message":"Ciao  127.0.0.1:50649 -\u003e 127.0.0.1:8080"},"id":"55"}
+2017/10/25 15:20:09 info: [Command:params] {"cid":["82"],"id":["82"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:20:09 info: [Split] ["bye"]
+2017/10/25 15:20:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"82","command":"bye","message":"Ciao"},"id":"55"}
+2017/10/25 15:28:16 info: [TcpConnect:params] {"_":["1508912404829"]}
+2017/10/25 15:28:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"83","command":"hello","message":"Ciao  127.0.0.1:50729 -\u003e 127.0.0.1:8080"},"id":"56"}
+2017/10/25 15:28:17 info: [Command:params] {"cid":["83"],"id":["83"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:28:17 info: [Split] ["bye"]
+2017/10/25 15:28:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"83","command":"bye","message":"Ciao"},"id":"56"}
+2017/10/25 15:40:44 info: [TcpConnect:params] {"_":["1508913631440"]}
+2017/10/25 15:40:44 info: [Response] {"jsonrpc":"2.0","result":{"cid":"84","command":"hello","message":"Ciao  127.0.0.1:50899 -\u003e 127.0.0.1:8080"},"id":"57"}
+2017/10/25 15:40:49 info: [Command:params] {"cid":["84"],"id":["84"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 15:40:49 info: [Split] ["bye"]
+2017/10/25 15:40:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"84","command":"bye","message":"Ciao"},"id":"57"}
+2017/10/25 16:29:20 info: [TcpConnect:params] {"_":["1508916553780"]}
+2017/10/25 16:29:20 info: [Response] {"jsonrpc":"2.0","result":{"cid":"85","command":"hello","message":"Ciao  127.0.0.1:52021 -\u003e 127.0.0.1:8080"},"id":"58"}
+2017/10/25 16:31:38 info: [TcpConnect:params] {"_":["1508916676536"]}
+2017/10/25 16:31:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"86","command":"hello","message":"Ciao  127.0.0.1:52060 -\u003e 127.0.0.1:8080"},"id":"59"}
+2017/10/25 16:38:46 error: [SendResponse] write tcp 10.72.128.41:8070->10.72.128.41:52037: wsasend: An established connection was aborted by the software in your host machine.
+2017/10/25 17:04:52 info: [TcpConnect:params] {"_":["1508918685946"]}
+2017/10/25 17:04:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"87","command":"hello","message":"Ciao  127.0.0.1:52642 -\u003e 127.0.0.1:8080"},"id":"5a"}
+2017/10/25 17:05:02 info: [Command:params] {"cid":["87"],"id":["87"],"jsonrpc":["2.0"],"method":["ああああ"],"params":[""]}
+2017/10/25 17:05:02 info: [Split] ["ああああ"]
+2017/10/25 17:05:02 info: [Response] {"jsonrpc":"2.0","result":{"cid":"87","command":"ああああ","message":"command not found"},"id":"5a"}
+2017/10/25 17:05:06 info: [Command:params] {"cid":["87"],"id":["87"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:05:06 info: [Split] ["bye"]
+2017/10/25 17:05:07 info: [Response] {"jsonrpc":"2.0","result":{"cid":"87","command":"bye","message":"Ciao"},"id":"5a"}
+2017/10/25 17:05:10 info: [TcpConnect:params] {"_":["1508918685947"]}
+2017/10/25 17:05:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"88","command":"hello","message":"Ciao  127.0.0.1:52645 -\u003e 127.0.0.1:8080"},"id":"5b"}
+2017/10/25 17:05:12 info: [Command:params] {"cid":["88"],"id":["88"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:05:12 info: [Split] ["bye"]
+2017/10/25 17:05:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"88","command":"bye","message":"Ciao"},"id":"5b"}
+2017/10/25 17:05:13 info: [TcpConnect:params] {"_":["1508918685948"]}
+2017/10/25 17:05:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"89","command":"hello","message":"Ciao  127.0.0.1:52647 -\u003e 127.0.0.1:8080"},"id":"5c"}
+2017/10/25 17:05:16 info: [Command:params] {"cid":["89"],"id":["89"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:05:16 info: [Split] ["bye"]
+2017/10/25 17:05:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"89","command":"bye","message":"Ciao"},"id":"5c"}
+2017/10/25 17:05:19 info: [TcpConnect:params] {"_":["1508918685949"]}
+2017/10/25 17:05:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"90","command":"hello","message":"Ciao  127.0.0.1:52650 -\u003e 127.0.0.1:8080"},"id":"5d"}
+2017/10/25 17:05:28 info: [Command:params] {"cid":["90"],"id":["90"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/25 17:05:28 info: [Split] ["test2"]
+2017/10/25 17:05:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"90","command":"test2","message":"test2です"},"id":"5d"}
+2017/10/25 17:15:31 info: [TcpConnect:params] {"_":["1508919303374"]}
+2017/10/25 17:15:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"91","command":"hello","message":"Ciao  127.0.0.1:52754 -\u003e 127.0.0.1:8080"},"id":"5e"}
+2017/10/25 17:28:23 info: [TcpConnect:params] {"_":["1508920096368"]}
+2017/10/25 17:28:23 info: [Response] {"jsonrpc":"2.0","result":{"cid":"92","command":"hello","message":"Ciao  127.0.0.1:52979 -\u003e 127.0.0.1:8080"},"id":"5f"}
+2017/10/25 17:32:10 info: [TcpConnect:params] {"_":["1508920329014"]}
+2017/10/25 17:32:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"93","command":"hello","message":"Ciao  127.0.0.1:53042 -\u003e 127.0.0.1:8080"},"id":"60"}
+2017/10/25 17:32:15 info: [Command:params] {"cid":["93"],"id":["93"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:32:15 info: [Split] ["bye"]
+2017/10/25 17:32:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"93","command":"bye","message":"Ciao"},"id":"60"}
+2017/10/25 17:32:16 info: [TcpConnect:params] {"_":["1508920329015"]}
+2017/10/25 17:32:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"94","command":"hello","message":"Ciao  127.0.0.1:53044 -\u003e 127.0.0.1:8080"},"id":"61"}
+2017/10/25 17:32:19 info: [Command:params] {"cid":["94"],"id":["94"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:32:19 info: [Split] ["bye"]
+2017/10/25 17:32:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"94","command":"bye","message":"Ciao"},"id":"61"}
+2017/10/25 17:32:20 info: [TcpConnect:params] {"_":["1508920329016"]}
+2017/10/25 17:32:20 info: [Response] {"jsonrpc":"2.0","result":{"cid":"95","command":"hello","message":"Ciao  127.0.0.1:53046 -\u003e 127.0.0.1:8080"},"id":"62"}
+2017/10/25 17:32:33 info: [Command:params] {"cid":["95"],"id":["95"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:32:33 info: [Split] ["bye"]
+2017/10/25 17:32:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"95","command":"bye","message":"Ciao"},"id":"62"}
+2017/10/25 17:32:39 info: [TcpConnect:params] {"_":["1508920329017"]}
+2017/10/25 17:32:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"96","command":"hello","message":"Ciao  127.0.0.1:53050 -\u003e 127.0.0.1:8080"},"id":"63"}
+2017/10/25 17:33:58 info: [TcpConnect:params] {"_":["1508920436363"]}
+2017/10/25 17:33:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"97","command":"hello","message":"Ciao  127.0.0.1:53070 -\u003e 127.0.0.1:8080"},"id":"64"}
+2017/10/25 17:34:29 info: [Command:params] {"cid":["97"],"id":["97"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:34:29 info: [Split] ["bye"]
+2017/10/25 17:34:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"97","command":"bye","message":"Ciao"},"id":"64"}
+2017/10/25 17:34:32 info: [TcpConnect:params] {"_":["1508920436364"]}
+2017/10/25 17:34:32 info: [Response] {"jsonrpc":"2.0","result":{"cid":"98","command":"hello","message":"Ciao  127.0.0.1:53076 -\u003e 127.0.0.1:8080"},"id":"65"}
+2017/10/25 17:34:34 info: [Command:params] {"cid":["98"],"id":["98"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:34:34 info: [Split] ["bye"]
+2017/10/25 17:34:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"98","command":"bye","message":"Ciao"},"id":"65"}
+2017/10/25 17:34:35 info: [TcpConnect:params] {"_":["1508920436365"]}
+2017/10/25 17:34:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"99","command":"hello","message":"Ciao  127.0.0.1:53077 -\u003e 127.0.0.1:8080"},"id":"66"}
+2017/10/25 17:38:06 info: [TcpConnect:params] {"_":["1508920680270"]}
+2017/10/25 17:38:06 info: [Response] {"jsonrpc":"2.0","result":{"cid":"100","command":"hello","message":"Ciao  127.0.0.1:53235 -\u003e 127.0.0.1:8080"},"id":"67"}
+2017/10/25 17:38:47 info: [TcpConnect:params] {"_":["1508920725762"]}
+2017/10/25 17:38:47 info: [Response] {"jsonrpc":"2.0","result":{"cid":"101","command":"hello","message":"Ciao  127.0.0.1:53245 -\u003e 127.0.0.1:8080"},"id":"68"}
+2017/10/25 17:38:53 info: [Command:params] {"cid":["101"],"id":["101"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:38:53 info: [Split] ["bye"]
+2017/10/25 17:38:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"101","command":"bye","message":"Ciao"},"id":"68"}
+2017/10/25 17:40:04 info: [TcpConnect:params] {"_":["1508920725763"]}
+2017/10/25 17:40:04 info: [Response] {"jsonrpc":"2.0","result":{"cid":"102","command":"hello","message":"Ciao  127.0.0.1:53255 -\u003e 127.0.0.1:8080"},"id":"69"}
+2017/10/25 17:40:15 info: [Command:params] {"cid":["102"],"id":["102"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:15 info: [Split] ["bye"]
+2017/10/25 17:40:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"102","command":"bye","message":"Ciao"},"id":"69"}
+2017/10/25 17:40:17 info: [TcpConnect:params] {"_":["1508920725764"]}
+2017/10/25 17:40:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"103","command":"hello","message":"Ciao  127.0.0.1:53258 -\u003e 127.0.0.1:8080"},"id":"6a"}
+2017/10/25 17:40:19 info: [Command:params] {"cid":["103"],"id":["103"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:19 info: [Split] ["bye"]
+2017/10/25 17:40:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"103","command":"bye","message":"Ciao"},"id":"6a"}
+2017/10/25 17:40:19 info: [TcpConnect:params] {"_":["1508920725765"]}
+2017/10/25 17:40:20 info: [Response] {"jsonrpc":"2.0","result":{"cid":"104","command":"hello","message":"Ciao  127.0.0.1:53260 -\u003e 127.0.0.1:8080"},"id":"6b"}
+2017/10/25 17:40:22 info: [Command:params] {"cid":["104"],"id":["104"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:22 info: [Split] ["bye"]
+2017/10/25 17:40:22 info: [Response] {"jsonrpc":"2.0","result":{"cid":"104","command":"bye","message":"Ciao"},"id":"6b"}
+2017/10/25 17:40:25 info: [TcpConnect:params] {"_":["1508920725766"]}
+2017/10/25 17:40:25 info: [Response] {"jsonrpc":"2.0","result":{"cid":"105","command":"hello","message":"Ciao  127.0.0.1:53261 -\u003e 127.0.0.1:8080"},"id":"6c"}
+2017/10/25 17:40:28 info: [Command:params] {"cid":["105"],"id":["105"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:28 info: [Split] ["bye"]
+2017/10/25 17:40:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"105","command":"bye","message":"Ciao"},"id":"6c"}
+2017/10/25 17:40:30 info: [TcpConnect:params] {"_":["1508920725767"]}
+2017/10/25 17:40:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"106","command":"hello","message":"Ciao  127.0.0.1:53262 -\u003e 127.0.0.1:8080"},"id":"6d"}
+2017/10/25 17:40:43 info: [TcpConnect:params] {"_":["1508920839513"]}
+2017/10/25 17:40:43 info: [Response] {"jsonrpc":"2.0","result":{"cid":"107","command":"hello","message":"Ciao  127.0.0.1:53265 -\u003e 127.0.0.1:8080"},"id":"6e"}
+2017/10/25 17:40:50 info: [Command:params] {"cid":["107"],"id":["107"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:50 info: [Split] ["bye"]
+2017/10/25 17:40:50 info: [Response] {"jsonrpc":"2.0","result":{"cid":"107","command":"bye","message":"Ciao"},"id":"6e"}
+2017/10/25 17:40:52 info: [TcpConnect:params] {"_":["1508920839514"]}
+2017/10/25 17:40:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"108","command":"hello","message":"Ciao  127.0.0.1:53268 -\u003e 127.0.0.1:8080"},"id":"6f"}
+2017/10/25 17:40:55 info: [Command:params] {"cid":["108"],"id":["108"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:40:55 info: [Split] ["bye"]
+2017/10/25 17:40:55 info: [Response] {"jsonrpc":"2.0","result":{"cid":"108","command":"bye","message":"Ciao"},"id":"6f"}
+2017/10/25 17:40:56 info: [TcpConnect:params] {"_":["1508920839515"]}
+2017/10/25 17:40:56 info: [Response] {"jsonrpc":"2.0","result":{"cid":"109","command":"hello","message":"Ciao  127.0.0.1:53269 -\u003e 127.0.0.1:8080"},"id":"70"}
+2017/10/25 17:41:00 info: [Command:params] {"cid":["109"],"id":["109"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:41:00 info: [Split] ["bye"]
+2017/10/25 17:41:00 info: [Response] {"jsonrpc":"2.0","result":{"cid":"109","command":"bye","message":"Ciao"},"id":"70"}
+2017/10/25 17:41:01 info: [TcpConnect:params] {"_":["1508920839516"]}
+2017/10/25 17:41:01 info: [Response] {"jsonrpc":"2.0","result":{"cid":"110","command":"hello","message":"Ciao  127.0.0.1:53271 -\u003e 127.0.0.1:8080"},"id":"71"}
+2017/10/25 17:41:35 info: [TcpConnect:params] {"_":["1508920891654"]}
+2017/10/25 17:41:35 info: [Response] {"jsonrpc":"2.0","result":{"cid":"111","command":"hello","message":"Ciao  127.0.0.1:53277 -\u003e 127.0.0.1:8080"},"id":"72"}
+2017/10/25 17:41:45 info: [Command:params] {"cid":["111"],"id":["111"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/25 17:41:45 info: [Split] ["hello"]
+2017/10/25 17:41:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"111","command":"hello","message":"Ciao  127.0.0.1:53277 -\u003e 127.0.0.1:8080"},"id":"72"}
+2017/10/25 17:41:52 info: [Command:params] {"cid":["111"],"id":["111"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:41:52 info: [Split] ["bye"]
+2017/10/25 17:41:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"111","command":"bye","message":"Ciao"},"id":"72"}
+2017/10/25 17:41:55 info: [TcpConnect:params] {"_":["1508920891655"]}
+2017/10/25 17:41:55 info: [Response] {"jsonrpc":"2.0","result":{"cid":"112","command":"hello","message":"Ciao  127.0.0.1:53279 -\u003e 127.0.0.1:8080"},"id":"73"}
+2017/10/25 17:42:11 info: [Command:params] {"cid":["112"],"id":["112"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/25 17:42:11 info: [Split] ["test2"]
+2017/10/25 17:42:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"112","command":"test2","message":"test2です"},"id":"73"}
+2017/10/25 17:42:13 info: [Command:params] {"cid":["112"],"id":["112"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:42:13 info: [Split] ["bye"]
+2017/10/25 17:42:13 info: [Response] {"jsonrpc":"2.0","result":{"cid":"112","command":"bye","message":"Ciao"},"id":"73"}
+2017/10/25 17:42:14 info: [TcpConnect:params] {"_":["1508920891656"]}
+2017/10/25 17:42:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"113","command":"hello","message":"Ciao  127.0.0.1:53284 -\u003e 127.0.0.1:8080"},"id":"74"}
+2017/10/25 17:42:18 info: [Command:params] {"cid":["113"],"id":["113"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:42:18 info: [Split] ["bye"]
+2017/10/25 17:42:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"113","command":"bye","message":"Ciao"},"id":"74"}
+2017/10/25 17:42:19 info: [TcpConnect:params] {"_":["1508920891657"]}
+2017/10/25 17:42:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"114","command":"hello","message":"Ciao  127.0.0.1:53285 -\u003e 127.0.0.1:8080"},"id":"75"}
+2017/10/25 17:43:15 info: [Command:params] {"cid":["114"],"id":["114"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:43:15 info: [Split] ["bye"]
+2017/10/25 17:43:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"114","command":"bye","message":"Ciao"},"id":"75"}
+2017/10/25 17:43:16 info: [TcpConnect:params] {"_":["1508920891658"]}
+2017/10/25 17:43:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"115","command":"hello","message":"Ciao  127.0.0.1:53289 -\u003e 127.0.0.1:8080"},"id":"76"}
+2017/10/25 17:43:21 info: [Command:params] {"cid":["115"],"id":["115"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:43:21 info: [Split] ["bye"]
+2017/10/25 17:43:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"115","command":"bye","message":"Ciao"},"id":"76"}
+2017/10/25 17:43:28 info: [TcpConnect:params] {"_":["1508920891659"]}
+2017/10/25 17:43:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"116","command":"hello","message":"Ciao  127.0.0.1:53290 -\u003e 127.0.0.1:8080"},"id":"77"}
+2017/10/25 17:43:36 info: [Command:params] {"cid":["116"],"id":["116"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:43:36 info: [Split] ["bye"]
+2017/10/25 17:43:36 info: [Response] {"jsonrpc":"2.0","result":{"cid":"116","command":"bye","message":"Ciao"},"id":"77"}
+2017/10/25 17:43:38 info: [TcpConnect:params] {"_":["1508920891660"]}
+2017/10/25 17:43:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"117","command":"hello","message":"Ciao  127.0.0.1:53291 -\u003e 127.0.0.1:8080"},"id":"78"}
+2017/10/25 17:49:27 error: [SendResponse] write tcp 10.72.128.41:8070->10.72.128.41:52991: wsasend: An established connection was aborted by the software in your host machine.
+2017/10/25 17:49:41 info: [TcpConnect:params] {"_":["1508921368534"]}
+2017/10/25 17:49:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"118","command":"hello","message":"Ciao  127.0.0.1:53775 -\u003e 127.0.0.1:8080"},"id":"79"}
+2017/10/25 17:49:52 info: [TcpConnect:params] {"_":["1508921391459"]}
+2017/10/25 17:49:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"119","command":"hello","message":"Ciao  127.0.0.1:53778 -\u003e 127.0.0.1:8080"},"id":"7a"}
+2017/10/25 17:49:57 info: [Command:params] {"cid":["119"],"id":["119"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:49:57 info: [Split] ["bye"]
+2017/10/25 17:49:57 info: [Response] {"jsonrpc":"2.0","result":{"cid":"119","command":"bye","message":"Ciao"},"id":"7a"}
+2017/10/25 17:49:59 info: [TcpConnect:params] {"_":["1508921391460"]}
+2017/10/25 17:49:59 info: [Response] {"jsonrpc":"2.0","result":{"cid":"120","command":"hello","message":"Ciao  127.0.0.1:53779 -\u003e 127.0.0.1:8080"},"id":"7b"}
+2017/10/25 17:50:02 info: [Command:params] {"cid":["120"],"id":["120"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:50:02 info: [Split] ["bye"]
+2017/10/25 17:50:02 info: [Response] {"jsonrpc":"2.0","result":{"cid":"120","command":"bye","message":"Ciao"},"id":"7b"}
+2017/10/25 17:50:04 info: [TcpConnect:params] {"_":["1508921391461"]}
+2017/10/25 17:50:04 info: [Response] {"jsonrpc":"2.0","result":{"cid":"121","command":"hello","message":"Ciao  127.0.0.1:53780 -\u003e 127.0.0.1:8080"},"id":"7c"}
+2017/10/25 17:52:26 info: [TcpConnect:params] {"_":["1508921543540"]}
+2017/10/25 17:52:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"122","command":"hello","message":"Ciao  127.0.0.1:53859 -\u003e 127.0.0.1:8080"},"id":"7d"}
+2017/10/25 17:52:31 info: [Command:params] {"cid":["122"],"id":["122"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:52:31 info: [Split] ["bye"]
+2017/10/25 17:52:31 info: [Response] {"jsonrpc":"2.0","result":{"cid":"122","command":"bye","message":"Ciao"},"id":"7d"}
+2017/10/25 17:52:33 info: [TcpConnect:params] {"_":["1508921543541"]}
+2017/10/25 17:52:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"123","command":"hello","message":"Ciao  127.0.0.1:53861 -\u003e 127.0.0.1:8080"},"id":"7e"}
+2017/10/25 17:52:37 info: [Command:params] {"cid":["123"],"id":["123"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:52:37 info: [Split] ["bye"]
+2017/10/25 17:52:37 info: [Response] {"jsonrpc":"2.0","result":{"cid":"123","command":"bye","message":"Ciao"},"id":"7e"}
+2017/10/25 17:52:41 info: [TcpConnect:params] {"_":["1508921543542"]}
+2017/10/25 17:52:41 info: [Response] {"jsonrpc":"2.0","result":{"cid":"124","command":"hello","message":"Ciao  127.0.0.1:53862 -\u003e 127.0.0.1:8080"},"id":"7f"}
+2017/10/25 17:52:45 info: [Command:params] {"cid":["124"],"id":["124"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:52:45 info: [Split] ["bye"]
+2017/10/25 17:52:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"124","command":"bye","message":"Ciao"},"id":"7f"}
+2017/10/25 17:52:46 info: [TcpConnect:params] {"_":["1508921543543"]}
+2017/10/25 17:52:46 info: [Response] {"jsonrpc":"2.0","result":{"cid":"125","command":"hello","message":"Ciao  127.0.0.1:53863 -\u003e 127.0.0.1:8080"},"id":"80"}
+2017/10/25 17:54:06 info: [Command:params] {"cid":["125"],"id":["125"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:54:06 info: [Split] ["bye"]
+2017/10/25 17:54:06 info: [Response] {"jsonrpc":"2.0","result":{"cid":"125","command":"bye","message":"Ciao"},"id":"80"}
+2017/10/25 17:54:07 info: [TcpConnect:params] {"_":["1508921543544"]}
+2017/10/25 17:54:07 info: [Response] {"jsonrpc":"2.0","result":{"cid":"126","command":"hello","message":"Ciao  127.0.0.1:53869 -\u003e 127.0.0.1:8080"},"id":"81"}
+2017/10/25 17:54:10 info: [Command:params] {"cid":["126"],"id":["126"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:54:10 info: [Split] ["bye"]
+2017/10/25 17:54:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"126","command":"bye","message":"Ciao"},"id":"81"}
+2017/10/25 17:54:11 info: [TcpConnect:params] {"_":["1508921543545"]}
+2017/10/25 17:54:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"127","command":"hello","message":"Ciao  127.0.0.1:53872 -\u003e 127.0.0.1:8080"},"id":"82"}
+2017/10/25 17:54:14 info: [Command:params] {"cid":["127"],"id":["127"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:54:14 info: [Split] ["bye"]
+2017/10/25 17:54:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"127","command":"bye","message":"Ciao"},"id":"82"}
+2017/10/25 17:54:14 info: [TcpConnect:params] {"_":["1508921543546"]}
+2017/10/25 17:54:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"128","command":"hello","message":"Ciao  127.0.0.1:53873 -\u003e 127.0.0.1:8080"},"id":"83"}
+2017/10/25 17:55:42 info: [TcpConnect:params] {"_":["1508921736523"]}
+2017/10/25 17:55:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"129","command":"hello","message":"Ciao  127.0.0.1:53884 -\u003e 127.0.0.1:8080"},"id":"84"}
+2017/10/25 17:55:48 info: [Command:params] {"cid":["129"],"id":["129"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:55:48 info: [Split] ["bye"]
+2017/10/25 17:55:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"129","command":"bye","message":"Ciao"},"id":"84"}
+2017/10/25 17:55:50 info: [TcpConnect:params] {"_":["1508921736524"]}
+2017/10/25 17:55:50 info: [Response] {"jsonrpc":"2.0","result":{"cid":"130","command":"hello","message":"Ciao  127.0.0.1:53905 -\u003e 127.0.0.1:8080"},"id":"85"}
+2017/10/25 17:55:53 info: [Command:params] {"cid":["130"],"id":["130"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:55:53 info: [Split] ["bye"]
+2017/10/25 17:55:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"130","command":"bye","message":"Ciao"},"id":"85"}
+2017/10/25 17:56:03 info: [TcpConnect:params] {"_":["1508921736525"]}
+2017/10/25 17:56:03 info: [Response] {"jsonrpc":"2.0","result":{"cid":"131","command":"hello","message":"Ciao  127.0.0.1:53907 -\u003e 127.0.0.1:8080"},"id":"86"}
+2017/10/25 17:56:26 info: [TcpConnect:params] {"_":["1508921785498"]}
+2017/10/25 17:56:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"132","command":"hello","message":"Ciao  127.0.0.1:53913 -\u003e 127.0.0.1:8080"},"id":"87"}
+2017/10/25 17:56:48 info: [TcpConnect:params] {"_":["1508921805377"]}
+2017/10/25 17:56:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"133","command":"hello","message":"Ciao  127.0.0.1:53925 -\u003e 127.0.0.1:8080"},"id":"88"}
+2017/10/25 17:57:10 info: [TcpConnect:params] {"_":["1508921828034"]}
+2017/10/25 17:57:10 info: [Response] {"jsonrpc":"2.0","result":{"cid":"134","command":"hello","message":"Ciao  127.0.0.1:53933 -\u003e 127.0.0.1:8080"},"id":"89"}
+2017/10/25 17:57:19 info: [Command:params] {"cid":["134"],"id":["134"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:57:19 info: [Split] ["bye"]
+2017/10/25 17:57:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"134","command":"bye","message":"Ciao"},"id":"89"}
+2017/10/25 17:57:19 info: [TcpConnect:params] {"_":["1508921828035"]}
+2017/10/25 17:57:19 info: [Response] {"jsonrpc":"2.0","result":{"cid":"135","command":"hello","message":"Ciao  127.0.0.1:53936 -\u003e 127.0.0.1:8080"},"id":"8a"}
+2017/10/25 17:57:27 info: [Command:params] {"cid":["135"],"id":["135"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 17:57:27 info: [Split] ["bye"]
+2017/10/25 17:57:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"135","command":"bye","message":"Ciao"},"id":"8a"}
+2017/10/25 17:57:29 info: [TcpConnect:params] {"_":["1508921828036"]}
+2017/10/25 17:57:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"136","command":"hello","message":"Ciao  127.0.0.1:53938 -\u003e 127.0.0.1:8080"},"id":"8b"}
+2017/10/25 17:58:17 info: [TcpConnect:params] {"_":["1508921896547"]}
+2017/10/25 17:58:17 info: [Response] {"jsonrpc":"2.0","result":{"cid":"137","command":"hello","message":"Ciao  127.0.0.1:53951 -\u003e 127.0.0.1:8080"},"id":"8c"}
+2017/10/25 18:01:20 info: [Command:params] {"cid":["137"],"id":["137"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:01:20 info: [Split] ["bye"]
+2017/10/25 18:01:20 error: [disconnect] read tcp4 127.0.0.1:53951->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:01:21 error: [Send] read tcp4 127.0.0.1:53951->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:01:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:53951-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 18:01:22 info: [TcpConnect:params] {"_":["1508921896548"]}
+2017/10/25 18:01:23 info: [Response] {"jsonrpc":"2.0","result":{"cid":"138","command":"hello","message":"Ciao  127.0.0.1:54032 -\u003e 127.0.0.1:8080"},"id":"8d"}
+2017/10/25 18:01:33 info: [Command:params] {"cid":["138"],"id":["138"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:01:33 info: [Split] ["bye"]
+2017/10/25 18:01:33 info: [Response] {"jsonrpc":"2.0","result":{"cid":"138","command":"bye","message":"Ciao"},"id":"8d"}
+2017/10/25 18:01:37 info: [Command:params] {"cid":["138"],"id":["138"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:01:37 info: [Split] ["bye"]
+2017/10/25 18:01:37 error: [disconnect] read tcp4 127.0.0.1:54032->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:01:37 error: [Send] read tcp4 127.0.0.1:54032->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:01:37 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:54032-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 18:01:37 info: [Command:params] {"cid":["138"],"id":["138"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:01:37 error: [Get] no such connection existed [138]
+2017/10/25 18:01:37 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"no such connection existed [138]"},"id":""}
+2017/10/25 18:01:39 info: [TcpConnect:params] {"_":["1508921896549"]}
+2017/10/25 18:01:39 info: [Response] {"jsonrpc":"2.0","result":{"cid":"139","command":"hello","message":"Ciao  127.0.0.1:54036 -\u003e 127.0.0.1:8080"},"id":"8e"}
+2017/10/25 18:02:34 info: [TcpConnect:params] {"_":["1508922151500"]}
+2017/10/25 18:02:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"140","command":"hello","message":"Ciao  127.0.0.1:54057 -\u003e 127.0.0.1:8080"},"id":"8f"}
+2017/10/25 18:05:15 info: [TcpConnect:params] {"_":["1508922312503"]}
+2017/10/25 18:05:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"141","command":"hello","message":"Ciao  127.0.0.1:54127 -\u003e 127.0.0.1:8080"},"id":"90"}
+2017/10/25 18:07:49 info: [TcpConnect:params] {"_":["1508922466749"]}
+2017/10/25 18:07:49 info: [Response] {"jsonrpc":"2.0","result":{"cid":"142","command":"hello","message":"Ciao  127.0.0.1:54158 -\u003e 127.0.0.1:8080"},"id":"91"}
+2017/10/25 18:07:57 info: [Command:params] {"cid":["142"],"id":["142"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:07:57 info: [Split] ["bye"]
+2017/10/25 18:07:57 info: [Response] {"jsonrpc":"2.0","result":{"cid":"142","command":"bye","message":"Ciao"},"id":"91"}
+2017/10/25 18:07:58 info: [TcpConnect:params] {"_":["1508922466750"]}
+2017/10/25 18:07:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"143","command":"hello","message":"Ciao  127.0.0.1:54159 -\u003e 127.0.0.1:8080"},"id":"92"}
+2017/10/25 18:09:38 info: [TcpConnect:params] {"_":["1508922575181"]}
+2017/10/25 18:09:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"144","command":"hello","message":"Ciao  127.0.0.1:54170 -\u003e 127.0.0.1:8080"},"id":"93"}
+2017/10/25 18:10:11 info: [TcpConnect:params] {"_":["1508922610355"]}
+2017/10/25 18:10:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"145","command":"hello","message":"Ciao  127.0.0.1:54175 -\u003e 127.0.0.1:8080"},"id":"94"}
+2017/10/25 18:11:51 info: [TcpConnect:params] {"_":["1508922710463"]}
+2017/10/25 18:11:51 info: [Response] {"jsonrpc":"2.0","result":{"cid":"146","command":"hello","message":"Ciao  127.0.0.1:54181 -\u003e 127.0.0.1:8080"},"id":"95"}
+2017/10/25 18:13:00 info: [TcpConnect:params] {"_":["1508922775275"]}
+2017/10/25 18:13:00 info: [Response] {"jsonrpc":"2.0","result":{"cid":"147","command":"hello","message":"Ciao  127.0.0.1:54191 -\u003e 127.0.0.1:8080"},"id":"96"}
+2017/10/25 18:13:14 info: [TcpConnect:params] {"_":["1508922791414"]}
+2017/10/25 18:13:14 info: [Response] {"jsonrpc":"2.0","result":{"cid":"148","command":"hello","message":"Ciao  127.0.0.1:54196 -\u003e 127.0.0.1:8080"},"id":"97"}
+2017/10/25 18:18:18 info: [TcpConnect:params] {"_":["1508923094541"]}
+2017/10/25 18:18:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"149","command":"hello","message":"Ciao  127.0.0.1:54433 -\u003e 127.0.0.1:8080"},"id":"98"}
+2017/10/25 18:18:34 info: [TcpConnect:params] {"_":["1508923111335"]}
+2017/10/25 18:18:34 info: [Response] {"jsonrpc":"2.0","result":{"cid":"150","command":"hello","message":"Ciao  127.0.0.1:54436 -\u003e 127.0.0.1:8080"},"id":"99"}
+2017/10/25 18:18:48 info: [TcpConnect:params] {"_":["1508923125087"]}
+2017/10/25 18:18:48 info: [Response] {"jsonrpc":"2.0","result":{"cid":"151","command":"hello","message":"Ciao  127.0.0.1:54442 -\u003e 127.0.0.1:8080"},"id":"9a"}
+2017/10/25 18:18:59 info: [TcpConnect:params] {"_":["1508923139383"]}
+2017/10/25 18:18:59 info: [Response] {"jsonrpc":"2.0","result":{"cid":"152","command":"hello","message":"Ciao  127.0.0.1:54445 -\u003e 127.0.0.1:8080"},"id":"9b"}
+2017/10/25 18:19:52 info: [TcpConnect:params] {"_":["1508923191453"]}
+2017/10/25 18:19:52 info: [Response] {"jsonrpc":"2.0","result":{"cid":"153","command":"hello","message":"Ciao  127.0.0.1:54466 -\u003e 127.0.0.1:8080"},"id":"9c"}
+2017/10/25 18:20:29 info: [TcpConnect:params] {"_":["1508923228094"]}
+2017/10/25 18:20:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"154","command":"hello","message":"Ciao  127.0.0.1:54471 -\u003e 127.0.0.1:8080"},"id":"9d"}
+2017/10/25 18:20:51 info: [Command:params] {"cid":["154"],"id":["154"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:20:51 info: [Split] ["bye"]
+2017/10/25 18:20:51 info: [Response] {"jsonrpc":"2.0","result":{"cid":"154","command":"bye","message":"Ciao"},"id":"9d"}
+2017/10/25 18:20:55 info: [TcpConnect:params] {"_":["1508923228095"]}
+2017/10/25 18:20:55 info: [Response] {"jsonrpc":"2.0","result":{"cid":"155","command":"hello","message":"Ciao  127.0.0.1:54473 -\u003e 127.0.0.1:8080"},"id":"9e"}
+2017/10/25 18:21:40 info: [TcpConnect:params] {"_":["1508923298644"]}
+2017/10/25 18:21:40 info: [Response] {"jsonrpc":"2.0","result":{"cid":"156","command":"hello","message":"Ciao  127.0.0.1:54483 -\u003e 127.0.0.1:8080"},"id":"9f"}
+2017/10/25 18:21:53 info: [Command:params] {"cid":["156"],"id":["156"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:21:53 info: [Split] ["bye"]
+2017/10/25 18:21:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"156","command":"bye","message":"Ciao"},"id":"9f"}
+2017/10/25 18:21:54 info: [TcpConnect:params] {"_":["1508923298645"]}
+2017/10/25 18:21:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"157","command":"hello","message":"Ciao  127.0.0.1:54484 -\u003e 127.0.0.1:8080"},"id":"a0"}
+2017/10/25 18:22:12 info: [TcpConnect:params] {"_":["1508923331447"]}
+2017/10/25 18:22:12 info: [Response] {"jsonrpc":"2.0","result":{"cid":"158","command":"hello","message":"Ciao  127.0.0.1:54492 -\u003e 127.0.0.1:8080"},"id":"a1"}
+2017/10/25 18:23:04 info: [TcpConnect:params] {"_":["1508923381954"]}
+2017/10/25 18:23:04 info: [Response] {"jsonrpc":"2.0","result":{"cid":"159","command":"hello","message":"Ciao  127.0.0.1:54503 -\u003e 127.0.0.1:8080"},"id":"a2"}
+2017/10/25 18:23:42 info: [Command:params] {"cid":["159"],"id":["159"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:23:42 info: [Split] ["bye"]
+2017/10/25 18:23:42 info: [Response] {"jsonrpc":"2.0","result":{"cid":"159","command":"bye","message":"Ciao"},"id":"a2"}
+2017/10/25 18:23:43 info: [TcpConnect:params] {"_":["1508923381955"]}
+2017/10/25 18:23:43 info: [Response] {"jsonrpc":"2.0","result":{"cid":"160","command":"hello","message":"Ciao  127.0.0.1:54507 -\u003e 127.0.0.1:8080"},"id":"a3"}
+2017/10/25 18:23:58 info: [TcpConnect:params] {"_":["1508923437347"]}
+2017/10/25 18:23:58 info: [Response] {"jsonrpc":"2.0","result":{"cid":"161","command":"hello","message":"Ciao  127.0.0.1:54510 -\u003e 127.0.0.1:8080"},"id":"a4"}
+2017/10/25 18:24:08 info: [Command:params] {"cid":["161"],"id":["161"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:24:08 info: [Split] ["bye"]
+2017/10/25 18:24:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"161","command":"bye","message":"Ciao"},"id":"a4"}
+2017/10/25 18:24:09 info: [TcpConnect:params] {"_":["1508923437348"]}
+2017/10/25 18:24:09 info: [Response] {"jsonrpc":"2.0","result":{"cid":"162","command":"hello","message":"Ciao  127.0.0.1:54513 -\u003e 127.0.0.1:8080"},"id":"a5"}
+2017/10/25 18:24:30 info: [TcpConnect:params] {"_":["1508923467175"]}
+2017/10/25 18:24:30 info: [Response] {"jsonrpc":"2.0","result":{"cid":"163","command":"hello","message":"Ciao  127.0.0.1:54516 -\u003e 127.0.0.1:8080"},"id":"a6"}
+2017/10/25 18:25:03 info: [TcpConnect:params] {"_":["1508923499677"]}
+2017/10/25 18:25:03 info: [Response] {"jsonrpc":"2.0","result":{"cid":"164","command":"hello","message":"Ciao  127.0.0.1:54519 -\u003e 127.0.0.1:8080"},"id":"a7"}
+2017/10/25 18:25:16 info: [Command:params] {"cid":["164"],"id":["164"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:25:16 info: [Split] ["bye"]
+2017/10/25 18:25:16 info: [Response] {"jsonrpc":"2.0","result":{"cid":"164","command":"bye","message":"Ciao"},"id":"a7"}
+2017/10/25 18:25:18 info: [TcpConnect:params] {"_":["1508923499678"]}
+2017/10/25 18:25:18 info: [Response] {"jsonrpc":"2.0","result":{"cid":"165","command":"hello","message":"Ciao  127.0.0.1:54522 -\u003e 127.0.0.1:8080"},"id":"a8"}
+2017/10/25 18:26:11 info: [TcpConnect:params] {"_":["1508923570310"]}
+2017/10/25 18:26:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"166","command":"hello","message":"Ciao  127.0.0.1:54528 -\u003e 127.0.0.1:8080"},"id":"a9"}
+2017/10/25 18:26:22 info: [TcpConnect:params] {"_":["1508923580690"]}
+2017/10/25 18:26:22 info: [Response] {"jsonrpc":"2.0","result":{"cid":"167","command":"hello","message":"Ciao  127.0.0.1:54532 -\u003e 127.0.0.1:8080"},"id":"aa"}
+2017/10/25 18:26:53 info: [TcpConnect:params] {"_":["1508923610681"]}
+2017/10/25 18:26:53 info: [Response] {"jsonrpc":"2.0","result":{"cid":"168","command":"hello","message":"Ciao  127.0.0.1:54536 -\u003e 127.0.0.1:8080"},"id":"ab"}
+2017/10/25 18:27:27 info: [Command:params] {"cid":["168"],"id":["168"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:27:27 info: [Split] ["bye"]
+2017/10/25 18:27:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"168","command":"bye","message":"Ciao"},"id":"ab"}
+2017/10/25 18:27:27 info: [TcpConnect:params] {"_":["1508923610682"]}
+2017/10/25 18:27:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"169","command":"hello","message":"Ciao  127.0.0.1:54544 -\u003e 127.0.0.1:8080"},"id":"ac"}
+2017/10/25 18:27:59 info: [TcpConnect:params] {"_":["1508923676871"]}
+2017/10/25 18:27:59 info: [Response] {"jsonrpc":"2.0","result":{"cid":"170","command":"hello","message":"Ciao  127.0.0.1:54547 -\u003e 127.0.0.1:8080"},"id":"ad"}
+2017/10/25 18:28:06 info: [Command:params] {"cid":["170"],"id":["170"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:28:06 info: [Split] ["bye"]
+2017/10/25 18:28:06 info: [Response] {"jsonrpc":"2.0","result":{"cid":"170","command":"bye","message":"Ciao"},"id":"ad"}
+2017/10/25 18:28:08 info: [TcpConnect:params] {"_":["1508923676872"]}
+2017/10/25 18:28:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"171","command":"hello","message":"Ciao  127.0.0.1:54550 -\u003e 127.0.0.1:8080"},"id":"ae"}
+2017/10/25 18:28:26 info: [TcpConnect:params] {"_":["1508923703634"]}
+2017/10/25 18:28:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"172","command":"hello","message":"Ciao  127.0.0.1:54553 -\u003e 127.0.0.1:8080"},"id":"af"}
+2017/10/25 18:29:44 info: [Command:params] {"cid":["172"],"id":["172"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/25 18:29:44 info: [Split] ["bye"]
+2017/10/25 18:29:44 info: [Response] {"jsonrpc":"2.0","result":{"cid":"172","command":"bye","message":"Ciao"},"id":"af"}
+2017/10/25 18:29:45 info: [TcpConnect:params] {"_":["1508923703635"]}
+2017/10/25 18:29:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"173","command":"hello","message":"Ciao  127.0.0.1:54593 -\u003e 127.0.0.1:8080"},"id":"b0"}
+2017/10/25 18:30:02 info: [Command:params] {"cid":["173"],"id":["173"],"jsonrpc":["2.0"],"method":["test"],"params":[""]}
+2017/10/25 18:30:02 info: [Split] ["test"]
+2017/10/25 18:30:02 info: [Response] {"jsonrpc":"2.0","result":{"cid":"173","command":"test","message":"command not found"},"id":"b0"}
+2017/10/25 18:30:06 info: [Command:params] {"cid":["173"],"id":["173"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/25 18:30:06 info: [Split] ["test2"]
+2017/10/25 18:30:06 info: [Response] {"jsonrpc":"2.0","result":{"cid":"173","command":"test2","message":"test2です"},"id":"b0"}
+2017/10/25 18:32:11 info: [Command:params] {"cid":["173"],"id":["173"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/25 18:32:11 info: [Split] ["now?"]
+2017/10/25 18:32:11 error: [disconnect] read tcp4 127.0.0.1:54593->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:32:11 error: [Send] read tcp4 127.0.0.1:54593->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/25 18:32:11 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:54593-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/25 18:32:28 info: [TcpConnect:params] {"_":["1508923703636"]}
+2017/10/25 18:32:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"174","command":"hello","message":"Ciao  127.0.0.1:54750 -\u003e 127.0.0.1:8080"},"id":"b1"}
+2017/10/25 18:32:37 info: [Command:params] {"cid":["174"],"id":["174"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/25 18:32:37 info: [Split] ["now?"]
+2017/10/25 18:32:37 info: [Response] {"jsonrpc":"2.0","result":{"cid":"174","command":"now?","message":"2017-10-25 18:32:37.7586761 +0900 JST m=+455528.994623100"},"id":"b1"}
+2017/10/26 10:21:28 info: [TcpConnect:params] {"_":["1508980883369"]}
+2017/10/26 10:21:28 info: [Response] {"jsonrpc":"2.0","result":{"cid":"175","command":"hello","message":"Ciao  127.0.0.1:56861 -\u003e 127.0.0.1:8080"},"id":"b2"}
+2017/10/26 10:21:38 info: [Command:params] {"cid":["175"],"id":["175"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/26 10:21:38 info: [Split] ["test2"]
+2017/10/26 10:21:38 info: [Response] {"jsonrpc":"2.0","result":{"cid":"175","command":"test2","message":"test2です"},"id":"b2"}
+2017/10/26 10:28:45 info: [TcpConnect:params] {"_":["1508981314837"]}
+2017/10/26 10:28:45 info: [Response] {"jsonrpc":"2.0","result":{"cid":"176","command":"hello","message":"Ciao  127.0.0.1:57041 -\u003e 127.0.0.1:8080"},"id":"b3"}
+2017/10/26 10:29:04 info: [Command:params] {"cid":["176"],"id":["176"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/26 10:29:04 info: [Split] ["bye"]
+2017/10/26 10:29:04 info: [Response] {"jsonrpc":"2.0","result":{"cid":"176","command":"bye","message":"Ciao"},"id":"b3"}
+2017/10/26 10:29:08 info: [TcpConnect:params] {"_":["1508981314838"]}
+2017/10/26 10:29:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"177","command":"hello","message":"Ciao  127.0.0.1:57042 -\u003e 127.0.0.1:8080"},"id":"b4"}
+2017/10/26 10:29:21 info: [Command:params] {"cid":["177"],"id":["177"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/26 10:29:21 info: [Split] ["now?"]
+2017/10/26 10:29:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"177","command":"now?","message":"2017-10-26 10:29:21.8010047 +0900 JST m=+512934.492870300"},"id":"b4"}
+2017/10/26 10:29:26 info: [Command:params] {"cid":["177"],"id":["177"],"jsonrpc":["2.0"],"method":["hello"],"params":[""]}
+2017/10/26 10:29:26 info: [Split] ["hello"]
+2017/10/26 10:29:26 info: [Response] {"jsonrpc":"2.0","result":{"cid":"177","command":"hello","message":"Ciao  127.0.0.1:57042 -\u003e 127.0.0.1:8080"},"id":"b4"}
+2017/10/26 10:29:29 info: [Command:params] {"cid":["177"],"id":["177"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/26 10:29:29 info: [Split] ["bye"]
+2017/10/26 10:29:29 info: [Response] {"jsonrpc":"2.0","result":{"cid":"177","command":"bye","message":"Ciao"},"id":"b4"}
+2017/10/26 10:36:08 info: [TcpConnect:params] {"_":["1508981314839"]}
+2017/10/26 10:36:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"178","command":"hello","message":"Ciao  127.0.0.1:57136 -\u003e 127.0.0.1:8080"},"id":"b5"}
+2017/10/26 10:36:21 info: [Command:params] {"cid":["178"],"id":["178"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/26 10:36:21 info: [Split] ["bye"]
+2017/10/26 10:36:21 info: [Response] {"jsonrpc":"2.0","result":{"cid":"178","command":"bye","message":"Ciao"},"id":"b5"}
+2017/10/26 10:43:08 info: [Command:params] {"cid":["175"],"id":["175"],"jsonrpc":["2.0"],"method":["aaa"],"params":[""]}
+2017/10/26 10:43:08 info: [Split] ["aaa"]
+2017/10/26 10:43:08 error: [disconnect] read tcp4 127.0.0.1:56861->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/26 10:43:08 error: [Send] read tcp4 127.0.0.1:56861->127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine.
+2017/10/26 10:43:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"","command":"error","message":"read tcp4 127.0.0.1:56861-\u003e127.0.0.1:8080: wsarecv: An established connection was aborted by the software in your host machine."},"id":""}
+2017/10/26 10:43:15 info: [TcpConnect:params] {"_":["1508980883370"]}
+2017/10/26 10:43:15 info: [Response] {"jsonrpc":"2.0","result":{"cid":"179","command":"hello","message":"Ciao  127.0.0.1:57306 -\u003e 127.0.0.1:8080"},"id":"b6"}
+2017/10/26 10:43:27 info: [Command:params] {"cid":["179"],"id":["179"],"jsonrpc":["2.0"],"method":["bye"],"params":[""]}
+2017/10/26 10:43:27 info: [Split] ["bye"]
+2017/10/26 10:43:27 info: [Response] {"jsonrpc":"2.0","result":{"cid":"179","command":"bye","message":"Ciao"},"id":"b6"}
+2017/10/27 13:31:54 info: [TcpConnect:params] {"_":["1509078706904"]}
+2017/10/27 13:31:54 info: [Response] {"jsonrpc":"2.0","result":{"cid":"180","command":"hello","message":"Ciao  127.0.0.1:57601 -\u003e 127.0.0.1:8080"},"id":"b7"}
+2017/10/27 13:32:03 info: [Command:params] {"cid":["180"],"id":["180"],"jsonrpc":["2.0"],"method":["test2"],"params":[""]}
+2017/10/27 13:32:03 info: [Split] ["test2"]
+2017/10/27 13:32:03 info: [Response] {"jsonrpc":"2.0","result":{"cid":"180","command":"test2","message":"test2です"},"id":"b7"}
+2017/10/27 13:32:08 info: [Command:params] {"cid":["180"],"id":["180"],"jsonrpc":["2.0"],"method":["now?"],"params":[""]}
+2017/10/27 13:32:08 info: [Split] ["now?"]
+2017/10/27 13:32:08 info: [Response] {"jsonrpc":"2.0","result":{"cid":"180","command":"now?","message":"2017-10-27 13:32:08.2528644 +0900 JST m=+610302.568416500"},"id":"b7"}
