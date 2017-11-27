@@ -21,7 +21,7 @@ type clients map[uint64]*TcpClientForApi
 var(
     currentClientID uint64 = 0
     mu *sync.RWMutex = new(sync.RWMutex)
-    cts = make(map[uint64]*TcpClientForApi)
+    cts clients = make(map[uint64]*TcpClientForApi)
 )
 
 

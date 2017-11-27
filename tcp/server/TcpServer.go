@@ -60,7 +60,7 @@ func fork(sid string, conn net.Conn) {
         u.Info("wait" ,"read " + sid)
 
         //receive
-        readLength, err := conn.Read(request)
+        readLength, err := conn.Read(request)    //conn.netFD.Raad -> poll.FD.Read ->  syscall.Read
 
         neterr, ok := err.(net.Error)
         if ok && neterr.Timeout() {

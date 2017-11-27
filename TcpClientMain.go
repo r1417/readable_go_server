@@ -55,8 +55,20 @@ func main() {
         u.InfoJson(res ,"commandResult")
 
 
+        //sandbox
+        /*
 
+        u.OnErrorTerminate(errors.New("hoge"), "Sandbox")
+
+        use defer:  defer client.Conn.Close()
+            → 2017/11/20 15:04:34 info: [disconnect 2] EOF
+            use log.fatal
+            → 2017/11/20 15:07:21 error: [disconnect 3] read tcp 127.0.0.1:8080->127.0.0.1:62818: wsarecv: An existing connection was forcibly closed by the remote host.
+        no defer: 
+            → 2017/11/20 15:07:21 error: [disconnect 3] read tcp 127.0.0.1:8080->127.0.0.1:62818: wsarecv: An existing connection was forcibly closed by the remote host.
+        */
     }
 
-
 }
+
+

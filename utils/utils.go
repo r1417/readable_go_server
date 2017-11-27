@@ -8,9 +8,13 @@ import (
     "encoding/json"
 )
 
+/*
+ * Use only fatal error. write log and call os.exit(1)
+ */ 
 func OnErrorTerminate(err error, s string) {
     if err != nil {
-        log.Fatal(fmt.Sprintf("fatal: [%s] %s", s,  err))
+        log.Print(fmt.Sprintf("fatal: [%s] %s", s,  err))
+        panic(err)
     }
 }
 
